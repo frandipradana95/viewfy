@@ -4,7 +4,7 @@
   "description": "Viewfy is a JavaScript library for building user interfaces.",
   "main": "dist/viewfy-core.js",
   "module": "dist/viewfy-core.js",
-  "private": true,
+  "private": false,
   "scripts": {
     "build": "webpack --mode production",
     "upload": "npm publish --access public"
