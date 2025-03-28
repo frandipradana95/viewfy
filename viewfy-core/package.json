@@ -1,0 +1,27 @@
+{
+  "name": "viewfy-core",
+  "version": "1.0.0",
+  "description": "Viewfy is a JavaScript library for building user interfaces.",
+  "main": "dist/viewfy-core.js",
+  "module": "dist/viewfy-core.js",
+  "private": true,
+  "scripts": {
+    "build": "webpack --mode production",
+    "upload": "npm publish --access public"
+  },
+  "keywords": ["Viewfy","framework","ui","frontend"],
+  "author": "Frandi pradana",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.26.10",
+    "@babel/preset-env": "^7.26.9",
+    "babel-loader": "^10.0.0",
+    "webpack": "^5.98.0",
+    "webpack-cli": "^6.0.1"
+  },
+  "files": [
+    "dist",
+    "package.json",
+    "README.md"
+  ]
+}
